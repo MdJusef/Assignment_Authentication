@@ -95,54 +95,78 @@ Inside the config/auth.php file you will need to make a few changes to configure
   <img src="screenshot/register%20and%20send%20otp.png" alt="">
   
   </li>
-  <br><hr>
+  <br>
+  <hr>
 
   <li><strong>User Model Database:</strong><p>
   <img src="screenshot/user%20model%20database.png" alt="">
   </li>
+    <br>
+  <hr>
 
   <li><strong>Email Verification</strong>
   <img src="screenshot/email_verified.png" alt="">
   </li>
+    <br>
+  <hr>
 
   <li><strong>After Verified Email</strong>
   <img src="screenshot/after%20verified%20email%2C%20database.png" alt="">
   </li>
+    <br>
+  <hr>
 
   <li><strong>User Login: </strong>
   <img src="screenshot/login%20api.png" alt="">
   </li>
+    <br>
+  <hr>
  
  <li><strong>Show Profile: </strong>
   <img src="screenshot/show%20profile%20using%20jwt%20token.png" alt="">
   </li>
 <br>
+<hr>
   <li><strong>Change User Password: </strong>
   <img src="screenshot/change%20password.png" alt="">
   </li>
+    <br>
+  <hr>
 
   <li><strong>Add Product is not accessible for user: </strong>
   <img src="screenshot/add%20product%20auth%20by%20admin.png" alt="">
   </li>
+    <br>
+  <hr>
 
 <li><strong>Admin Login </strong>
   <img src="screenshot/admin%20login.png" alt="">
   </li>
+    <br>
+  <hr>
 
   <li><strong>Add product by admin:  </strong>
   <img src="screenshot/update%20product%20by%20admin.png" alt="">
   </li>
+    <br>
+  <hr>
 
    <li><strong>Add product by admin:  </strong>
   <img src="screenshot/update%20product%20by%20admin.png" alt="">
   </li>
+    <br>
+  <hr>
 
   <li><strong>Show Product is not accessible for unregistered user:  </strong>
   <img src="screenshot/show%20product%20not%20accessible.png" alt="">
   </li>
+    <br>
+  <hr>
 
      <li><strong>Show Product:  </strong>
   <img src="screenshot/show%20product.png" alt="">
   </li>
+    <br>
+  <hr>
  
 </ul>
