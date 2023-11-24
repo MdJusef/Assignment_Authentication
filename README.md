@@ -1,7 +1,8 @@
-install laravel:
+# install laravel:
 composer create-project laravel/laravel authentication
 
-jwt authentication:
+# jwt authentication:
+
 composer require tymon/jwt-auth
 
 Add the service provider to the providers array in the config/app.php config file as follows: 
@@ -54,7 +55,7 @@ class User extends Authenticatable implements JWTSubject
     }
 }
 
-Configure Auth guard
+# Configure Auth guard
 Note: This will only work if you are using Laravel 5.2 and above.
 
 Inside the config/auth.php file you will need to make a few changes to configure Laravel to use the jwt guard to power your application authentication.
@@ -75,4 +76,5 @@ Make the following changes to the file:
     ],
 ]
 
+# Output Screenshot:
 
