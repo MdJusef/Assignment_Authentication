@@ -1,14 +1,16 @@
 # install laravel:
-composer create-project laravel/laravel authentication
+
+<pre>composer create-project laravel/laravel authentication</pre>
 
 # jwt authentication:
 <p>
-    composer require tymon/jwt-auth
+    <pre>composer require tymon/jwt-auth</pre>
+    
 </p>
 
 
 <h4>Add the service provider to the providers array in the config/app.php config file as follows: </h4>
-<p>'providers' => [ Tymon\JWTAuth\Providers\LaravelServiceProvider::class, ]</p>
+<p><pre>'providers' => [ Tymon\JWTAuth\Providers\LaravelServiceProvider::class, ]</pre></p>
 
 <h4>Run the following command to publish the package config file:</h4>
  <p>php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"</p>
