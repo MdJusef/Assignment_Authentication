@@ -11,7 +11,8 @@
     <li>Update and Delete Product by Admin not User</li>
     <li>Show Product(admin,user)</li>
 </ul>
-# install laravel:
+<br>
+## install laravel:
 
 <pre>composer create-project laravel/laravel authentication</pre>
 
