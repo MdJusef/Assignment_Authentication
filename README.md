@@ -95,6 +95,7 @@ Inside the config/auth.php file you will need to make a few changes to configure
   <img src="screenshot/register%20and%20send%20otp.png" alt="">
   
   </li>
+  <br><hr>
 
   <li><strong>User Model Database:</strong><p>
   <img src="screenshot/user%20model%20database.png" alt="">
