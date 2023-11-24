@@ -1,3 +1,16 @@
+## Features
+<ul>
+    <li>Register</li>
+    <li>Login</li>
+    <li>Forget Password</li>
+    <li>Otp Verification</li>
+    <li>Email Verified</li>
+    <li>Reset Password</li>
+    <li>Change Password by user</li>
+    <li>Add Product by admin only</li>
+    <li>Update and Delete Product by Admin not User</li>
+    <li>Show Product(admin,user)</li>
+</ul>
 # install laravel:
 
 <pre>composer create-project laravel/laravel authentication</pre>
