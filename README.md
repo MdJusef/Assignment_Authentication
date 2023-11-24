@@ -13,11 +13,11 @@
 <p><pre>'providers' => [ Tymon\JWTAuth\Providers\LaravelServiceProvider::class, ]</pre></p>
 
 <h4>Run the following command to publish the package config file:</h4>
- <p>php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"</p>
+ <p><pre>php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"</pre></p>
 <p>after running this command config/jwt.php file will be added.</p>
 
 <h4>Generate jwt Secret key using following command:</h4>
-<p>php artisan jwt:secret</p>
+<p><pre>php artisan jwt:secret</pre></p>
 
 
 ## Update your User model
@@ -27,7 +27,8 @@ Firstly you need to implement the Tymon\JWTAuth\Contracts\JWTSubject contract on
 The example below should give you an idea of how this could look. Obviously you should make any changes necessary to suit your own needs.
 </p>
 
-<p>
+<p><pre>
+    <?php
   namespace App;
 
 use Tymon\JWTAuth\Contracts\JWTSubject;
@@ -36,7 +37,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable implements JWTSubject
 {
-<?php
+
     use Notifiable;
 
     // Rest omitted for brevity
@@ -62,7 +63,7 @@ class User extends Authenticatable implements JWTSubject
     }
 }
   
-</p>
+</pre></p>
 
 
 
@@ -75,7 +76,7 @@ Inside the config/auth.php file you will need to make a few changes to configure
 
 
 
-<p>Make the following changes to the file:</p>
+<p><pre>Make the following changes to the file:</p>
 
 'defaults' => [
     'guard' => 'api',
@@ -90,7 +91,7 @@ Inside the config/auth.php file you will need to make a few changes to configure
         'provider' => 'users',
     ],
 ]
-
+</pre>
 ## Output Screenshot:
 <ul>
   <li><strong>User Register and Send Otp:</strong>
